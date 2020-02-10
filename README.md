@@ -7,7 +7,7 @@
 
 > https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-repository
 
-Docker Compose 
+***Docker Compose*** 
 > https://docs.docker.com/compose/install
 
 ***Git***
