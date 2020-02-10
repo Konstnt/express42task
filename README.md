@@ -10,12 +10,5 @@
 > https://docs.docker.com/compose/install
 
 </br> Git
-> https://git-scm.com/download/linux
+> https://git-scm.com/download/linux 
 </br>
-</br>
-# Настраиваем DOCKER
-</br> 
-</br>
-### DOCKERFILE 
-</br>
-> 
