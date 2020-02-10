@@ -1,0 +1,11 @@
+sudo: true
+dist: trusty
+
+jobs:
+  include:
+    - stage: test
+      script:
+      - docker build -t ex42-redmine .
+      - docker build -t ex42-redmine-test ./test
+      - echo docker run -d ex42-redmine
+      - docker run --rm ex42-redmine-test
