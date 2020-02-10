@@ -40,5 +40,5 @@
   --volume=/srv/docker/redmine/redmine:/home/redmine/data \
   ex42-redmine
 
-5. Docker-compose Запускаем контейнеры в виде сервисов
+5. Docker-compose Запускаем контейнеры в виде сервисов (Останавливаем контейнеры из п4. У меня была проблема не стартовали сервисы, пришлоь удалять оба volume с хоста)
 > docker-compose up -d
