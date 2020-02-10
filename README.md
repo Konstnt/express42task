@@ -23,7 +23,7 @@
 
 4.1 postgresql container
 
-docker run --name=postgresql-redmine -d \
+> docker run --name=postgresql-redmine -d \
   --env='DB_NAME=redmine_production' \
   --env='DB_USER=redmine' --env='DB_PASS=password' \
   --volume=/srv/docker/redmine/postgresql:/var/lib/postgresql \
