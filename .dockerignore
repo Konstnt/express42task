@@ -1,0 +1,9 @@
+.git
+circle.yml
+docker-compose.yml
+LICENSE
+VERSION
+README.md
+Changelog.md
+Makefile
+.dockerignore (END)
