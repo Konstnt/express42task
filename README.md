@@ -15,7 +15,7 @@
 
 1. git clone https://github.com/Konstnt/express42task.git
 
-2. cd docker-redmine/ 
+2. cd ex42-redmine/ 
 
 3. Docker build -t ex42-redmine .
 
