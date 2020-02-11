@@ -42,3 +42,8 @@
 
 5. Docker-compose Запускаем контейнеры в виде сервисов (Останавливаем контейнеры из п4. У меня была проблема не стартовали сервисы, пришлоь удалять оба volume с хоста)
 > docker-compose up -d
+
+# TRAVIS-CI.ORG
+Файл .travis.yml
+ *Задает тест сборки образа и его деплой в бранч gh-pages
+> https://github.com/Konstnt/express42task/tree/gh-pages
