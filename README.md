@@ -24,7 +24,7 @@
 
 4. Стартуем 2 контейнера вручную. Второй контейнер линкуем с контейнером с БД.
 
-4.1 Контейнер Postgresql
+ 4.1 Контейнер Postgresql
 
 > docker run --name=postgresql-redmine -d \
   --env='DB_NAME=redmine_production' \
@@ -32,7 +32,7 @@
   --volume=/srv/docker/redmine/postgresql:/var/lib/postgresql \
   sameersbn/postgresql:9.6-4
 
-4.2. Контейнер Redmine
+ 4.2. Контейнер Redmine
 
 > docker run --name=redmine -d \
   --link=postgresql-redmine:postgresql --publish=10083:80 \
